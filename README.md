@@ -53,7 +53,14 @@ echo 'APP_API_KEY=<Your API key goes here>' >> .env
 php artisan key:generate
 ```
 
-### Step 6: Start the web server
+### Step 6: Initialise the cache
+
+```bash
+php artisan make:cache-table
+php artisan migrate
+```
+
+### Step 7: Start the web server
 
 ```bash
 php artisan serve
