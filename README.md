@@ -56,6 +56,7 @@ php artisan key:generate
 ### Step 6: Initialise the cache
 
 ```bash
+touch database/database.sqlite
 php artisan make:cache-table
 php artisan migrate
 ```
