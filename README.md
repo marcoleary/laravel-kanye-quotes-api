@@ -1,3 +1,5 @@
+![Laravel](https://github.com/marcoleary/laravel-kanye-quotes-api/actions/workflows/laravel.yml/badge.svg)
+
 # Laravel Kanye Quotes API
 
 This is a Laravel application that connects to the Kanye West quotes API, retrieves quotes, and provides endpoints to get and refresh quotes. 
